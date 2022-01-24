@@ -1,0 +1,29 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Первый",
+      "description": "Первый в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Второй",
+      "description": "Второй в рейтинге!",
+      "element": "water"
+    },
+    {
+      "id": 3,
+      "name": "Третий",
+      "description": "Третий в рейтинге!",
+      "element": "wind"
+    },
+    {
+      "id": 4,
+      "name": "Лох",
+      "description": "Лох в рейтинге!",
+      "element": "earth"
+    }
+  ],
+  "filters": ["all", "fire", "water", "wind", "earth"]
+}
