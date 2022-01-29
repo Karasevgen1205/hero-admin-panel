@@ -26,8 +26,6 @@ const HeroesList = () => {
     request("http://localhost:3001/heroes")
       .then((data) => dispatch(heroesFetched(data)))
       .catch(() => dispatch(heroesFetchingError()));
-
-    // eslint-disable-next-line
   }, []);
 
   if (heroesLoadingStatus === "loading") {

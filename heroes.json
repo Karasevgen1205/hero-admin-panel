@@ -1,29 +1,29 @@
 {
   "heroes": [
     {
-      "id": 1,
-      "name": "Первый",
-      "description": "Первый в рейтинге!",
+      "id": "6dff1fae-c5d4-4691-ad54-3cdd2cb39dee",
+      "name": "nrnr",
+      "description": "rnrtn",
       "element": "fire"
     },
     {
-      "id": 2,
-      "name": "Второй",
-      "description": "Второй в рейтинге!",
-      "element": "water"
-    },
-    {
-      "id": 3,
-      "name": "Третий",
-      "description": "Третий в рейтинге!",
+      "id": "f9166268-2739-46f0-8833-3d26ca748f7a",
+      "name": "rn",
+      "description": "rtn",
       "element": "wind"
     },
     {
-      "id": 4,
-      "name": "Лох",
-      "description": "Лох в рейтинге!",
+      "id": "56c370ab-d789-45c6-ba55-1c7e22963204",
+      "name": "rtn",
+      "description": "rtn",
       "element": "earth"
     }
   ],
-  "filters": ["all", "fire", "water", "wind", "earth"]
+  "filters": [
+    "all",
+    "fire",
+    "water",
+    "wind",
+    "earth"
+  ]
 }
