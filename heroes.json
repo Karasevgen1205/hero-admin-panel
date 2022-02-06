@@ -1,29 +1,54 @@
 {
   "heroes": [
     {
-      "id": "6dff1fae-c5d4-4691-ad54-3cdd2cb39dee",
-      "name": "nrnr",
-      "description": "rnrtn",
+      "id": 3,
+      "name": "Морской герой",
+      "description": "Как аквамен, но не из DC",
+      "element": "water"
+    },
+    {
+      "id": "ed3de6ea-c976-4d3c-aab4-eba0c6f7c818",
+      "name": "bg",
+      "description": "yjtyj",
       "element": "fire"
     },
     {
-      "id": "f9166268-2739-46f0-8833-3d26ca748f7a",
-      "name": "rn",
-      "description": "rtn",
+      "id": "9095e62b-b6ff-4c47-81f4-bd4a0d6133f3",
+      "name": "tyj",
+      "description": "tyj",
       "element": "wind"
-    },
-    {
-      "id": "56c370ab-d789-45c6-ba55-1c7e22963204",
-      "name": "rtn",
-      "description": "rtn",
-      "element": "earth"
     }
   ],
   "filters": [
-    "all",
-    "fire",
-    "water",
-    "wind",
-    "earth"
+    {
+      "id": "all",
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
   ]
 }
